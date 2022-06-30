@@ -1,0 +1,106 @@
+.button {
+    position: relative;
+    background-color: #e2a75a;
+    border: none;
+    color: #FFFFFF;
+    padding: 4px;
+    width: 65px;
+    border: gray solid 1px;
+    /* text-align: center;*/
+    /*  transition-duration: 0.4s;*/
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button2 {
+    position: relative;
+    background-color: #686354a9;
+    border: none;
+    color: #FFFFFF;
+    padding: 4px;
+    width: 75px;
+    border: gray solid 1px;
+    /* text-align: center;*/
+    /*  transition-duration: 0.4s;*/
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.button2:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button2:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button3 {
+    position: relative;
+    background-color: #d63b30d5;
+    border: none;
+    color: #FFFFFF;
+    padding: 4px;
+    width: 60px;
+    border: gray solid 1px;
+    /* text-align: center;*/
+    /*  transition-duration: 0.4s;*/
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    float: right;
+}
+
+.button3:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button3:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
